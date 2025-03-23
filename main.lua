@@ -36,9 +36,9 @@ end
 
 getGlobalTable().FireHubLoaded = true
 
-local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Core/Libraries/Fire-Lib/Main.lua", true))()
-local espLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Core/Libraries/ESP/Main.lua", true))()
-local txtf = loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Core/Libraries/Side-Text/Main.lua"))()
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/brogg1v1/none2/refs/heads/main/main.lua", true))()
+local espLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/brogg1v1/none2/refs/heads/main/ESP.lua", true))()
+local txtf = loadstring(game:HttpGet("https://raw.githubusercontent.com/brogg1v1/none2/refs/heads/main/Side-Text-Main.lua"))()
 local plr = game:GetService("Players").LocalPlayer
 
 if game.PlaceId == 116495829188952 then
